@@ -3,50 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up Form</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dark Sign Up Form</title>
 </head>
 <body>
-    <div class="full">
-        <div class="wrapper">
-            <div class="left">
-                <div class="image"><img src="real.jpg"></div>
+    <div class="container">
+        <div class="image">
+            <div class="odin">
+                Odin
             </div>
-            <div class="right">
-                <div class="upper">
-                    <h2>This is not a real online service!
-                        You know you need something like this in your
-                        life to help you realize your deepest dreams.
-                        Sign up <i>now</i> to get started
-                        You <i>know</i> you want to.
-                        <br>
-                        <br>
-                        <br>
-                        Let's do this!
-                    </h2>
-                </div>
-                <div class="form">
-                    <div class="left1">
-                        <label>First name</label>
-                        <input type="text">
-                        <label>Email</label>
-                        <input type="email">
-                        <label>Password</label>
-                        <input type="password">
-                    </div>
 
-                    <div class="right1">
-                        <label>Last name</label>
-                        <input type="text">
-                        <label>Number</label>
-                        <input type="number">
-                        <label>Confirm Password</label>
-                        <input type="password">
+        </div>
+        <div class="content">
+            <h1>Welcome to EHX</h1>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started You know you want to.
+                <br>
+                <br>
+                <br>
+                Let's do this! </p>
+            <div class="form">
+                <div class="left">
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" required>
                     </div>
                 </div>
-                <button>Create Account</button>
-                <p>Already have an account? <a href="#">Log in</a></p>
+                <div class="right">
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" required>
+                    </div>
+                </div>
+                
             </div>
+            <div class="form-group submit-button"> <button type="submit">Sign Up</button>
+                </div>
+           
         </div>
     </div>
 </body>
