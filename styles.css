@@ -110,4 +110,10 @@ button:hover {
     font-size: 100px;
     font-family: mainfont;
     justify-content: center;
+    flex-direction: row;
+}
+
+.odinImg{
+    height: 100px;
+    width: 100px;
 }
