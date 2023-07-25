@@ -36,8 +36,22 @@ img{
     align-items: center;
 }
 
+a{
+    color: white;
+}
+.href{
+    background-color: #0c0c0cbb;
+    border: 3px #252525ce solid;
+    color: white;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.para{
+    display:flex;
+    align-self: flex-start;
+}
+
 .content {
-    flex: 1;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -47,7 +61,7 @@ h1 {
     text-align: center;
 }
 
-p {
+.entrance {
     text-align: center;
 }
 
@@ -64,6 +78,8 @@ p {
 
 .form-group {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 label {
@@ -84,16 +100,17 @@ input {
 }
 
 button {
-    margin-top: 50px;
+    margin-top: 30px;
     padding-top: 20px;
     padding: 20px;
     background-color: #0f0f0fd0;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 7px;
     cursor: pointer;
     min-width: fit-content;
-    width: 150px;
+    font-size: 20px;
+    width: 230px;
 }
 
 button:hover {
@@ -116,4 +133,20 @@ button:hover {
 .odinImg{
     height: 100px;
     width: 100px;
+}
+
+.buton{
+    display:flex;
+    flex-direction: column;
+}
+
+input{
+    max-width: 300px;
+    min-width: fit-content;
+    width: 300px;
+}
+
+.form{
+    
+    border-bottom: 3px rgba(27, 27, 27, 0.781) solid;
 }
