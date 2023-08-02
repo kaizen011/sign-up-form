@@ -6,18 +6,20 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'mainfont', Arial, sans-serif; /* Using the custom font */
     display: flex;
     height: 100vh;
     overflow: hidden;
-    background-color: #222;
+    background: linear-gradient(to bottom right, #111, #222); /* Dark gradient background */
     color: #fff;
+    backdrop-filter: blur(8px); /* Blurring the background */
 }
 
-img{
+img {
     width: 500px;
     height: auto;
 }
+
 .container {
     display: flex;
     width: 100%;
@@ -36,18 +38,20 @@ img{
     align-items: center;
 }
 
-a{
+a {
     color: white;
 }
-.href{
+
+.href {
     background-color: #0c0c0cbb;
     border: 3px #252525ce solid;
     color: white;
     max-width: fit-content;
     max-height: fit-content;
 }
-.para{
-    display:flex;
+
+.para {
+    display: flex;
     align-self: flex-start;
 }
 
@@ -59,18 +63,24 @@ a{
 
 h1 {
     text-align: center;
+    font-size: 40px; /* Increase font size for the header */
 }
 
 .entrance {
     text-align: center;
+    margin-top: 30px; /* Adjust margin for the entrance paragraph */
+    font-size: 18px; /* Decrease font size for the entrance paragraph */
+    line-height: 1.5; /* Increase line height for better readability */
 }
 
 .form {
     display: flex;
     margin-top: 20px;
+    gap: 20px; /* Adjust the gap between form groups */
 }
 
-.left, .right {
+.left,
+.right {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -84,6 +94,7 @@ h1 {
 
 label {
     font-weight: bold;
+    font-size: 18px; /* Increase font size for labels */
 }
 
 input {
@@ -117,8 +128,7 @@ button:hover {
     background-color: #383838a9;
 }
 
-
-.odin{
+.odin {
     display: flex;
     background-color: #1b1b1b6e;
     opacity: 90%;
@@ -130,23 +140,22 @@ button:hover {
     flex-direction: row;
 }
 
-.odinImg{
+.odinImg {
     height: 100px;
     width: 95px;
 }
 
-.buton{
-    display:flex;
+.buton {
+    display: flex;
     flex-direction: column;
 }
 
-input{
+input {
     max-width: 300px;
     min-width: fit-content;
     width: 300px;
 }
 
-.form{
-    
+.form {
     border-bottom: 3px rgba(27, 27, 27, 0.781) solid;
 }
