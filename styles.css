@@ -30,7 +30,6 @@ img {
     display: flex;
     flex: 1;
     background-color: #333;
-    /* Replace the following line with a background image */
     background-image: url("dark.jpg");
     background-size: cover;
     background-position: center;
@@ -63,20 +62,20 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 40px; /* Increase font size for the header */
+    font-size: 40px;
 }
 
 .entrance {
     text-align: center;
-    margin-top: 30px; /* Adjust margin for the entrance paragraph */
-    font-size: 18px; /* Decrease font size for the entrance paragraph */
-    line-height: 1.5; /* Increase line height for better readability */
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .form {
     display: flex;
     margin-top: 20px;
-    gap: 20px; /* Adjust the gap between form groups */
+    gap: 20px; 
 }
 
 .left,
@@ -92,9 +91,15 @@ h1 {
     flex-direction: column;
 }
 
+
+
 label {
     font-weight: bold;
-    font-size: 18px; /* Increase font size for labels */
+    font-size: 16px;;
+    color: #aaa;;
+    text-transform: uppercase;;
+    letter-spacing: 1px;;
+    margin-bottom: 5px;;
 }
 
 input {
@@ -103,7 +108,11 @@ input {
     border-radius: 4px;
     background-color: #333;
     color: #fff;
+    font-size: 16px;;
+    font-weight: lighter;;
 }
+;
+
 
 .submit-button {
     display: flex;
